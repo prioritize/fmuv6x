@@ -2,9 +2,873 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 6f2a77a4-5c51-4809-903e-53c484a031d8)
-	(paper "A4")
+	(uuid "6f2a77a4-5c51-4809-903e-53c484a031d8")
+	(paper "A3")
 	(lib_symbols)
+	(sheet
+		(at 102.87 154.94)
+		(size 22.86 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "01b8e000-4d61-4baf-87f6-378ab1f323c5")
+		(property "Sheetname" "IMU 1"
+			(at 102.87 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu_1.kicad_sch"
+			(at 102.87 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fc_2026"
+				(path "/6f2a77a4-5c51-4809-903e-53c484a031d8"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 201.93)
+		(size 30.48 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "08188306-0088-45cf-b24e-fcfd4e32bb13")
+		(property "Sheetname" "Barometer 1"
+			(at 106.68 201.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "barometer_1.kicad_sch"
+			(at 106.68 224.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fc_2026"
+				(path "/6f2a77a4-5c51-4809-903e-53c484a031d8"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 99.06)
+		(size 25.4 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "08ce249e-3973-46ed-9801-faf01e378b6f")
+		(property "Sheetname" "Power Zone 1"
+			(at 45.72 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_zone_1.kicad_sch"
+			(at 45.72 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fc_2026"
+				(path "/6f2a77a4-5c51-4809-903e-53c484a031d8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 250.19)
+		(size 17.78 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0a751bde-b076-4f72-a7de-f810a9ea3f63")
+		(property "Sheetname" "Debug Connector"
+			(at 199.39 249.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "debug_connector.kicad_sch"
+			(at 199.39 263.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fc_2026"
+				(path "/6f2a77a4-5c51-4809-903e-53c484a031d8"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 100.33)
+		(size 27.94 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0f6ea457-aa62-4338-8d01-19a03cdad585")
+		(property "Sheetname" "Power Zone 2"
+			(at 90.17 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_zone_2.kicad_sch"
+			(at 90.17 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fc_2026"
+				(path "/6f2a77a4-5c51-4809-903e-53c484a031d8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 100.33)
+		(size 20.32 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "29cf3564-3a9f-42b4-8092-45fe2307a2bc")
+		(property "Sheetname" "Power Zone 3"
+			(at 137.16 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_zone_3.kicad_sch"
+			(at 137.16 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fc_2026"
+				(path "/6f2a77a4-5c51-4809-903e-53c484a031d8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 234.95 109.22)
+		(size 16.51 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3209987d-5812-430c-b8fa-744ad30edede")
+		(property "Sheetname" "Telemetry 2"
+			(at 234.95 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "telemetry_2.kicad_sch"
+			(at 234.95 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 234.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "fc_2026"
+				(path "/6f2a77a4-5c51-4809-903e-53c484a031d8"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 250.19)
+		(size 22.86 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3c9c4b5b-ce40-4289-b8fa-bb5c62625947")
+		(property "Sheetname" "GPS Connectors"
+			(at 160.02 249.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gps_connectors.kicad_sch"
+			(at 160.02 264.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fc_2026"
+				(path "/6f2a77a4-5c51-4809-903e-53c484a031d8"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 278.13 171.45)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "51b6fd60-71f3-4833-b5e6-35eef12b7809")
+		(property "Sheetname" "RC Input Connector"
+			(at 278.13 170.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rc_input_connector.kicad_sch"
+			(at 278.13 184.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fc_2026"
+				(path "/6f2a77a4-5c51-4809-903e-53c484a031d8"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 153.67)
+		(size 22.86 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "557028fd-7f00-41d1-9d7e-6cbd6f15dfe1")
+		(property "Sheetname" "IMU 2"
+			(at 138.43 152.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu_2.kicad_sch"
+			(at 138.43 173.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fc_2026"
+				(path "/6f2a77a4-5c51-4809-903e-53c484a031d8"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 247.65 232.41)
+		(size 16.51 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a4551a8-fee4-478e-8398-69256ce2312c")
+		(property "Sheetname" "Autopilot Bus Connector"
+			(at 247.65 231.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "autopilot_bus_connector.kicad_sch"
+			(at 247.65 245.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fc_2026"
+				(path "/6f2a77a4-5c51-4809-903e-53c484a031d8"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 203.2)
+		(size 26.67 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5bb7e150-9840-48a7-b639-9c3ed83c08cd")
+		(property "Sheetname" "Barometer 2"
+			(at 153.67 202.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "barometer_2.kicad_sch"
+			(at 153.67 224.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 153.67 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "fc_2026"
+				(path "/6f2a77a4-5c51-4809-903e-53c484a031d8"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 153.67)
+		(size 24.13 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "65f5ac12-ce2a-4622-9952-d99e94a75767")
+		(property "Sheetname" "IMU 3"
+			(at 184.15 152.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu_3.kicad_sch"
+			(at 184.15 179.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 184.15 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "fc_2026"
+				(path "/6f2a77a4-5c51-4809-903e-53c484a031d8"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 316.23 118.11)
+		(size 16.51 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7b60f3b4-f696-4f18-88b5-3bbad37534ec")
+		(property "Sheetname" "PWM Output Connectors"
+			(at 316.23 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pwm_output_connectors.kicad_sch"
+			(at 316.23 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fc_2026"
+				(path "/6f2a77a4-5c51-4809-903e-53c484a031d8"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 199.39)
+		(size 12.7 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7e12717d-2b11-4f71-9bd3-af8621626e4d")
+		(property "Sheetname" "Power Connector"
+			(at 241.3 198.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_connector.kicad_sch"
+			(at 241.3 213.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fc_2026"
+				(path "/6f2a77a4-5c51-4809-903e-53c484a031d8"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 292.1 200.66)
+		(size 16.51 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "af4c75aa-7908-4a60-adff-627e18cd2873")
+		(property "Sheetname" "Ethernet Connection"
+			(at 292.1 199.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet_connection.kicad_sch"
+			(at 292.1 213.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fc_2026"
+				(path "/6f2a77a4-5c51-4809-903e-53c484a031d8"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 274.32 129.54)
+		(size 19.05 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bb124023-5c61-43c9-9b07-aa2e74c79b41")
+		(property "Sheetname" "Can Bus Connector"
+			(at 274.32 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can_bus_connector.kicad_sch"
+			(at 274.32 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fc_2026"
+				(path "/6f2a77a4-5c51-4809-903e-53c484a031d8"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 214.63)
+		(size 33.02 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bce1ce65-0a9b-483e-a81a-c7ff9b1e3b5b")
+		(property "Sheetname" "FMU MCU"
+			(at 25.4 213.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fmu_mcu.kicad_sch"
+			(at 25.4 244.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fc_2026"
+				(path "/6f2a77a4-5c51-4809-903e-53c484a031d8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 237.49 152.4)
+		(size 16.51 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cc54cc77-f93a-4f0e-8ded-76c1325abaf7")
+		(property "Sheetname" "Telemetry 1"
+			(at 237.49 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "telemetry_1.kicad_sch"
+			(at 237.49 168.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fc_2026"
+				(path "/6f2a77a4-5c51-4809-903e-53c484a031d8"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 313.69 157.48)
+		(size 20.32 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fbdc1731-7377-4852-ae24-08a4771dbd32")
+		(property "Sheetname" "I2C Expansion Connectors"
+			(at 313.69 156.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i2c_expansion.kicad_sch"
+			(at 313.69 170.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fc_2026"
+				(path "/6f2a77a4-5c51-4809-903e-53c484a031d8"
+					(page "19")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

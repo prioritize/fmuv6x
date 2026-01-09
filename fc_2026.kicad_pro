@@ -609,6 +609,91 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "6f2a77a4-5c51-4809-903e-53c484a031d8",
+      "Root"
+    ],
+    [
+      "bce1ce65-0a9b-483e-a81a-c7ff9b1e3b5b",
+      "FMU MCU"
+    ],
+    [
+      "08ce249e-3973-46ed-9801-faf01e378b6f",
+      "Power Zone 1"
+    ],
+    [
+      "0f6ea457-aa62-4338-8d01-19a03cdad585",
+      "Power Zone 2"
+    ],
+    [
+      "29cf3564-3a9f-42b4-8092-45fe2307a2bc",
+      "Power Zone 3"
+    ],
+    [
+      "01b8e000-4d61-4baf-87f6-378ab1f323c5",
+      "IMU 1"
+    ],
+    [
+      "557028fd-7f00-41d1-9d7e-6cbd6f15dfe1",
+      "IMU 2"
+    ],
+    [
+      "65f5ac12-ce2a-4622-9952-d99e94a75767",
+      "IMU 3"
+    ],
+    [
+      "08188306-0088-45cf-b24e-fcfd4e32bb13",
+      "Barometer 1"
+    ],
+    [
+      "5bb7e150-9840-48a7-b639-9c3ed83c08cd",
+      "Barometer 2"
+    ],
+    [
+      "3c9c4b5b-ce40-4289-b8fa-bb5c62625947",
+      "GPS Connectors"
+    ],
+    [
+      "0a751bde-b076-4f72-a7de-f810a9ea3f63",
+      "Debug Connector"
+    ],
+    [
+      "7e12717d-2b11-4f71-9bd3-af8621626e4d",
+      "Power Connector"
+    ],
+    [
+      "5a4551a8-fee4-478e-8398-69256ce2312c",
+      "Autopilot Bus Connector"
+    ],
+    [
+      "cc54cc77-f93a-4f0e-8ded-76c1325abaf7",
+      "Telemetry 1"
+    ],
+    [
+      "3209987d-5812-430c-b8fa-744ad30edede",
+      "Telemetry 2"
+    ],
+    [
+      "bb124023-5c61-43c9-9b07-aa2e74c79b41",
+      "Can Bus Connector"
+    ],
+    [
+      "51b6fd60-71f3-4833-b5e6-35eef12b7809",
+      "RC Input Connector"
+    ],
+    [
+      "fbdc1731-7377-4852-ae24-08a4771dbd32",
+      "I2C Expansion Connectors"
+    ],
+    [
+      "7b60f3b4-f696-4f18-88b5-3bbad37534ec",
+      "PWM Output Connectors"
+    ],
+    [
+      "af4c75aa-7908-4a60-adff-627e18cd2873",
+      "Ethernet Connection"
+    ]
+  ],
   "text_variables": {}
 }
