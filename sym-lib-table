@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MAX25262")(type "KiCad")(uri "/home/jared/Electronics/ExternalComponentModels/MAX25262/KiCADv6/2026-01-10_07-09-08.kicad_sym")(options "")(descr ""))
+)
